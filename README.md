@@ -1,4 +1,3 @@
-```markdown
 # vcv_patch – Industrial Patch Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -42,36 +41,40 @@ It's a great way to quickly get a complex structure (5 blocks + a master section
 ---
 
 ## Project structure
-
-```
 vcv_patch/
-├── main.py                 # Main script – triggers generation
-├── packager.py             # Creates the .vcv file from JSON
-├── concept.txt             # Database of all signal chains (add your own!)
+├── main.py
+├── packager.py
+├── concept.txt
 ├── database/
-│   ├── modules.json        # Module database (define new modules here)
-│   └── knobs_default.json  # Default knob settings
-├── routing/                # Complex automatic cable routing logic
-│   ├── audio_core.py
-│   ├── clock_bus.py
-│   ├── filter_logic.py
-│   ├── global_bridge.py
-│   ├── modulation_core.py
-│   ├── pipeline.py
-│   ├── port_manager.py
-│   ├── signal_broker.py
-│   └── routing_blocks/     # Block-specific routing scripts
-│       ├── drone_block.py
-│       ├── bass_block.py
-│       ├── rhythm_block.py
-│       ├── noise_block.py
-│       └── melodic_block.py
-└── modules/                # Descriptor scripts for each module
-    ├── vco.py
-    ├── vcf.py
-    ├── vca.py
-    └── ... (95+ module files)
-```
+│ ├── modules.json
+│ └── knobs_default.json
+├── routing/
+│ ├── audio_core.py
+│ ├── clock_bus.py
+│ ├── filter_logic.py
+│ ├── global_bridge.py
+│ ├── modulation_core.py
+│ ├── pipeline.py
+│ ├── port_manager.py
+│ ├── signal_broker.py
+│ └── routing_blocks/
+│ ├── drone_block.py
+│ ├── bass_block.py
+│ ├── rhythm_block.py
+│ ├── noise_block.py
+│ └── melodic_block.py
+└── modules/
+├── vco.py
+├── vcf.py
+├── vca.py
+└── ... (95+ module files)
+
+- `main.py` — Main script that triggers generation
+- `packager.py` — Creates the .vcv file from JSON
+- `concept.txt` — Database of signal chains (you can add your own!)
+- `database/` — Module and knob settings
+- `routing/` — Automatic cable routing logic
+- `modules/` — Descriptor scripts for each module
 
 ---
 
@@ -108,21 +111,17 @@ If a module is missing from your system, the generator will simply skip it or fa
 
 1. Clone or download this repository
 2. Make sure you have the required Python packages:
-   ```bash
    pip install zstandard
-   ```
 3. Run the generator:
-   ```bash
    python main.py
-   ```
-4. Open the generated `.vcv` file in VCV Rack
+4. Open the generated .vcv file in VCV Rack
 5. Experiment! Twist knobs, repatch cables, make noise
 
 ---
 
 ## Philosophy
 
-**There are no right or wrong decisions here – just a space for experimentation.**
+There are no right or wrong decisions here – just a space for experimentation.
 
 If you're a beginner, start by opening a generated patch and just turn the knobs. See what each module does. Follow the cables. Break them and re-patch them. This is how you learn.
 
@@ -136,5 +135,4 @@ MIT License – feel free to use, modify, and share.
 
 ---
 
-**Happy patching!** 🎛️🔊
-```
+Happy patching! 🎛️🔊
