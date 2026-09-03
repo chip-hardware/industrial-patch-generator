@@ -1,0 +1,518 @@
+{
+    "AUDIO": {
+        "plugin": "Core",
+        "model": "AudioInterface",
+        "version": "2.6.6",
+        "width": 20
+    },
+    "AUDIO2": {
+        "plugin": "Core",
+        "model": "AudioInterface2",
+        "version": "2.6.6",
+        "width": 20
+    },
+    "BLANK": {
+        "plugin": "Core",
+        "model": "Blank",
+        "version": "2.6.6",
+        "width": 6
+    },
+    "MIDI-CV": {
+        "plugin": "Fundamental",
+        "model": "SEQ3",
+        "version": "2.6.4",
+        "width": 27
+    },
+    "VCO": {
+        "plugin": "Fundamental",
+        "model": "VCO",
+        "version": "2.6.4",
+        "width": 19
+    },
+    "VCO2": {
+        "plugin": "Fundamental",
+        "model": "VCO2",
+        "version": "2.6.4",
+        "width": 19
+    },
+    "WTVCO": {
+        "plugin": "Fundamental",
+        "model": "VCO2",
+        "version": "2.6.4",
+        "width": 19
+    },
+    "VCF": {
+        "plugin": "Fundamental",
+        "model": "VCF",
+        "version": "2.6.4",
+        "width": 14
+    },
+    "FILTER": {
+        "plugin": "Fundamental",
+        "model": "VCF",
+        "version": "2.6.4",
+        "width": 14
+    },
+    "VCA": {
+        "plugin": "Fundamental",
+        "model": "VCA-1",
+        "version": "2.6.4",
+        "width": 6
+    },
+    "VCA-2": {
+        "plugin": "Fundamental",
+        "model": "VCA",
+        "version": "2.6.4",
+        "width": 9
+    },
+    "LFO": {
+        "plugin": "Fundamental",
+        "model": "LFO",
+        "version": "2.6.4",
+        "width": 11
+    },
+    "LFO2": {
+        "plugin": "Fundamental",
+        "model": "LFO2",
+        "version": "2.6.4",
+        "width": 12
+    },
+    "WTLFO": {
+        "plugin": "Fundamental",
+        "model": "LFO2",
+        "version": "2.6.4",
+        "width": 12
+    },
+    "ADSR": {
+        "plugin": "Fundamental",
+        "model": "ADSR",
+        "version": "2.6.4",
+        "width": 8
+    },
+    "NOISE": {
+        "plugin": "Fundamental",
+        "model": "Noise",
+        "version": "2.6.4",
+        "width": 6
+    },
+    "MIXER": {
+        "plugin": "Fundamental",
+        "model": "Mix",
+        "version": "2.6.4",
+        "width": 11
+    },
+    "VCMIXER": {
+        "plugin": "Fundamental",
+        "model": "VCA Mix",
+        "version": "2.6.4",
+        "width": 15
+    },
+    "DELAY": {
+        "plugin": "Fundamental",
+        "model": "Delay",
+        "version": "2.6.4",
+        "width": 14
+    },
+    "SEQ": {
+        "plugin": "Fundamental",
+        "model": "SEQ3",
+        "version": "2.6.4",
+        "width": 27
+    },
+    "SEQ3": {
+        "plugin": "Fundamental",
+        "model": "SEQ3",
+        "version": "2.6.4",
+        "width": 27
+    },
+    "SEQUENCER": {
+        "plugin": "Fundamental",
+        "model": "SEQ3",
+        "version": "2.6.4",
+        "width": 27
+    },
+    "QUANT": {
+        "plugin": "Fundamental",
+        "model": "Quantizer",
+        "version": "2.6.4",
+        "width": 11
+    },
+    "QUANTIZER": {
+        "plugin": "Fundamental",
+        "model": "Quantizer",
+        "version": "2.6.4",
+        "width": 11
+    },
+    "SCOPE": {
+        "plugin": "Fundamental",
+        "model": "Scope",
+        "version": "2.6.4",
+        "width": 14
+    },
+    "RANDOM": {
+        "plugin": "Fundamental",
+        "model": "RandomValues",
+        "version": "2.6.4",
+        "width": 8
+    },
+    "S&H": {
+        "plugin": "Fundamental",
+        "model": "RandomValues",
+        "version": "2.6.4",
+        "width": 8
+    },
+    "LOGIC": {
+        "plugin": "Fundamental",
+        "model": "Logic",
+        "version": "2.6.4",
+        "width": 10
+    },
+    "SURGEXTFXDISTORTION": {
+        "plugin": "SurgeXTRack",
+        "model": "SurgeXTFXDistortion",
+        "version": "2.2.9.0",
+        "width": 12
+    },
+    "CLOCKED": {
+        "plugin": "ImpromptuModular",
+        "model": "Clocked-Clkd",
+        "version": "2.5.0",
+        "width": 12
+    },
+    "TRANSIT": {
+        "plugin": "Stoermelder-P1",
+        "model": "Transit",
+        "version": "2.0.0",
+        "width": 16
+    },
+    "STRIP": {
+        "plugin": "Stoermelder-P1",
+        "model": "Strip",
+        "version": "2.0.0",
+        "width": 10
+    },
+    "MIXMASTER": {
+        "plugin": "MindMeldModular",
+        "model": "MixMaster",
+        "version": "2.5.1",
+        "width": 42
+    },
+    "AUDIOINTERFACE2": {
+        "plugin": "Core",
+        "model": "AudioInterface2",
+        "version": "2.6.6",
+        "width": 17
+    },
+    "CM_CLOCK_DIVIDER": {
+        "plugin": "CountModula",
+        "model": "ClockDivider",
+        "version": "2.5.0",
+        "width": 8
+    },
+    "CM_MATRIX_MIXER": {
+        "plugin": "CountModula",
+        "model": "MatrixMixer",
+        "version": "2.5.0",
+        "width": 16
+    },
+    "CM_RECTIFIER": {
+        "plugin": "CountModula",
+        "model": "Rectifier",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_LOGIC": {
+        "plugin": "CountModula",
+        "model": "PolyLogic",
+        "version": "2.5.0",
+        "width": 10
+    },
+    "CM_SWITCH_1_8": {
+        "plugin": "CountModula",
+        "model": "Switch1To8",
+        "version": "2.5.0",
+        "width": 5
+    },
+    "CM_SAMPLE_AND_HOLD": {
+        "plugin": "CountModula",
+        "model": "SampleAndHold",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_BURST_GENERATOR": {
+        "plugin": "CountModula",
+        "model": "BurstGenerator64",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_CLOCKED_RANDOM_GATES": {
+        "plugin": "CountModula",
+        "model": "ClockedRandomGates",
+        "version": "2.5.0",
+        "width": 12
+    },
+    "CM_COMPARATOR": {
+        "plugin": "CountModula",
+        "model": "Comparator",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_G2T": {
+        "plugin": "CountModula",
+        "model": "G2T",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_GATED_COMPARATOR": {
+        "plugin": "CountModula",
+        "model": "GatedComparator",
+        "version": "2.5.0",
+        "width": 12
+    },
+    "CM_SLOPE_DETECTOR": {
+        "plugin": "CountModula",
+        "model": "SlopeDetector",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_VOLTAGE_SCALER": {
+        "plugin": "CountModula",
+        "model": "VoltageScaler",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_GATE_SEQ_8": {
+        "plugin": "CountModula",
+        "model": "GateSequencer8",
+        "version": "2.5.0",
+        "width": 24
+    },
+    "CM_SUBHARMONIC": {
+        "plugin": "CountModula",
+        "model": "SubHarmonicGenerator",
+        "version": "2.5.0",
+        "width": 8
+    },
+    "CM_SEQUENCER_8": {
+        "plugin": "CountModula",
+        "model": "Sequencer8",
+        "version": "2.5.0",
+        "width": 14
+    },
+    "CM_SEQUENCER_16": {
+        "plugin": "CountModula",
+        "model": "Sequencer16",
+        "version": "2.5.0",
+        "width": 14
+    },
+    "CM_GATE_SEQUENCER_16": {
+        "plugin": "CountModula",
+        "model": "GateSequencer16",
+        "version": "2.5.0",
+        "width": 14
+    },
+    "CM_TRIGGER_SEQUENCER_8": {
+        "plugin": "CountModula",
+        "model": "TriggerSequencer8",
+        "version": "2.5.0",
+        "width": 14
+    },
+    "CM_SWITCH_8_1": {
+        "plugin": "CountModula",
+        "model": "Switch8To1",
+        "version": "2.5.0",
+        "width": 11
+    },
+    "CM_SWITCH_16_1": {
+        "plugin": "CountModula",
+        "model": "Switch16To1",
+        "version": "2.5.0",
+        "width": 11
+    },
+    "CM_SWITCH_1_16": {
+        "plugin": "CountModula",
+        "model": "Switch1To16",
+        "version": "2.5.0",
+        "width": 11
+    },
+    "CM_VOLTAGE_INVERTER": {
+        "plugin": "CountModula",
+        "model": "VoltageInverter",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_MATRIX_COMBINER": {
+        "plugin": "CountModula",
+        "model": "MatrixCombiner",
+        "version": "2.5.0",
+        "width": 15
+    },
+    "CM_BOOLEAN_AND": {
+        "plugin": "CountModula",
+        "model": "BooleanAND",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_BOOLEAN_OR": {
+        "plugin": "CountModula",
+        "model": "BooleanOR",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_BOOLEAN_XOR": {
+        "plugin": "CountModula",
+        "model": "BooleanXOR",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_GATE_DELAY": {
+        "plugin": "CountModula",
+        "model": "GateDelay",
+        "version": "2.5.0",
+        "width": 8
+    },
+    "CM_GATE_MODIFIER": {
+        "plugin": "CountModula",
+        "model": "GateModifier",
+        "version": "2.5.0",
+        "width": 5
+    },
+    "CM_VC_PULSE_DIVIDER": {
+        "plugin": "CountModula",
+        "model": "VCPulseDivider",
+        "version": "2.5.0",
+        "width": 5
+    },
+    "CM_VC_SWITCH": {
+        "plugin": "CountModula",
+        "model": "VoltageControlledSwitch",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_MUTE": {
+        "plugin": "CountModula",
+        "model": "Mute",
+        "version": "2.5.0",
+        "width": 5
+    },
+    "CM_MULTIPLE": {
+        "plugin": "CountModula",
+        "model": "Multiple",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_ARPEGGIATOR": {
+        "plugin": "CountModula",
+        "model": "SuperArpeggiator",
+        "version": "2.5.0",
+        "width": 10
+    },
+    "CM_CAROUSEL": {
+        "plugin": "CountModula",
+        "model": "Carousel",
+        "version": "2.5.0",
+        "width": 12
+    },
+    "CM_CHANCES": {
+        "plugin": "CountModula",
+        "model": "Chances",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_EVENT_ARRANGER": {
+        "plugin": "CountModula",
+        "model": "EventArranger",
+        "version": "2.5.0",
+        "width": 18
+    },
+    "CM_EVENT_TIMER": {
+        "plugin": "CountModula",
+        "model": "EventTimer",
+        "version": "2.5.0",
+        "width": 10
+    },
+    "CM_FADE": {
+        "plugin": "CountModula",
+        "model": "Fade",
+        "version": "2.5.0",
+        "width": 8
+    },
+    "CM_MANUAL_CV": {
+        "plugin": "CountModula",
+        "model": "ManualCV",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_MANUAL_CV2": {
+        "plugin": "CountModula",
+        "model": "ManualCV2",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_MANGLER": {
+        "plugin": "CountModula",
+        "model": "Mangler",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_MORPH_SHAPER": {
+        "plugin": "CountModula",
+        "model": "MorphShaper",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_OFFSET_GENERATOR": {
+        "plugin": "CountModula",
+        "model": "OffsetGenerator",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_SHEPARD_GENERATOR": {
+        "plugin": "CountModula",
+        "model": "ShepardGenerator",
+        "version": "2.5.0",
+        "width": 10
+    },
+    "CM_SIGNAL_MANIFOLD": {
+        "plugin": "CountModula",
+        "model": "Manifold",
+        "version": "2.5.0",
+        "width": 6
+    },
+    "CM_VC_FREQUENCY_DIVIDER": {
+        "plugin": "CountModula",
+        "model": "VCFrequencyDivider",
+        "version": "2.5.0",
+        "width": 4
+    },
+    "CM_ATTENUVERTER": {
+        "plugin": "CountModula",
+        "model": "Attenuverter",
+        "version": "2.5.0",
+        "width": 5
+    },
+    "rexmix": {
+        "plugin": "repelzen",
+        "model": "rexmix",
+        "version": "2.0.0",
+        "width": 17
+    },
+    "squinkylabs-comp": {
+        "plugin": "squinkylabs-plug1",
+        "model": "squinkylabs-comp",
+        "version": "2.1.9",
+        "width": 9
+    },
+    "Plateau": {
+        "plugin": "Valley",
+        "model": "Plateau",
+        "version": "2.4.5",
+        "width": 19
+    },
+    "SurgeXTFXDistortion": {
+        "plugin": "SurgeXTRack",
+        "model": "SurgeXTFXDistortion",
+        "version": "2.2.9.0",
+        "width": 12
+    }
+}
