@@ -38,7 +38,7 @@ It's a great way to quickly get a complex structure (5 blocks + a master section
    - Adding a master section (mixer, compressor, reverb, distortion)
    - Producing a ready-to-use `.vcv` file that you can open in VCV Rack
 
----
+---plaintext
 
 ## Project structure
 vcv_patch/
