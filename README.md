@@ -38,37 +38,35 @@ It's a great way to quickly get a complex structure (5 blocks + a master section
    - Adding a master section (mixer, compressor, reverb, distortion)
    - Producing a ready-to-use `.vcv` file that you can open in VCV Rack
 
----plaintext
-
-## Project structure
+```plaintext
 vcv_patch/
 ├── main.py
 ├── packager.py
 ├── concept.txt
 ├── database/
-│ ├── modules.json
-│ └── knobs_default.json
+│   ├── modules.json
+│   └── knobs_default.json
 ├── routing/
-│ ├── audio_core.py
-│ ├── clock_bus.py
-│ ├── filter_logic.py
-│ ├── global_bridge.py
-│ ├── modulation_core.py
-│ ├── pipeline.py
-│ ├── port_manager.py
-│ ├── signal_broker.py
-│ └── routing_blocks/
-│ ├── drone_block.py
-│ ├── bass_block.py
-│ ├── rhythm_block.py
-│ ├── noise_block.py
-│ └── melodic_block.py
+│   ├── audio_core.py
+│   ├── clock_bus.py
+│   ├── filter_logic.py
+│   ├── global_bridge.py
+│   ├── modulation_core.py
+│   ├── pipeline.py
+│   ├── port_manager.py
+│   ├── signal_broker.py
+│   └── routing_blocks/
+│       ├── drone_block.py
+│       ├── bass_block.py
+│       ├── rhythm_block.py
+│       ├── noise_block.py
+│       └── melodic_block.py
 └── modules/
-├── vco.py
-├── vcf.py
-├── vca.py
-└── ... (95+ module files)
-
+    ├── vco.py
+    ├── vcf.py
+    ├── vca.py
+    └── ... (95+ module files)
+```
 - `main.py` — Main script that triggers generation
 - `packager.py` — Creates the .vcv file from JSON
 - `concept.txt` — Database of signal chains (you can add your own!)
