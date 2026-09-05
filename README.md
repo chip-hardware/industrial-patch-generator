@@ -68,7 +68,7 @@ vcv_patch/
 ├── vcf.py
 ├── vca.py
 └── ... (95+ module files)
----
+
 - `main.py` — Main script that triggers generation
 - `packager.py` — Creates the .vcv file from JSON
 - `concept.txt` — Database of signal chains (you can add your own!)
