@@ -5,6 +5,10 @@
 
 This project is my personal tool for generating starter patches in VCV Rack. It was built for my own needs, but I've decided to share it because it can give beginners a great head start or serve as a solid foundation for your own experiments.
 
+A generated patch is a raw technical structure. It contains no music or even a hint of it. Think of it as a "skeleton" that you fill with sound, tweak knobs, and repatch cables to discover your own industrial sound. 
+
+Currently, the patch generation relies on a curated set of modules that I find most expressive and versatile for shaping dark, textured timbres: **Count Modula** modules for logic, sequencing, and complex modulation, **native VCV Rack** modules for the core utility and synthesis backbone, **Plateau** as a lush and gritty reverb to give space and depth, **Surge XT** effects—specifically its distortion units—for adding weight, harmonics, and aggressive bite, and **REX-MIX** as the final mixing and routing hub to glue everything together. This combination gives you a powerful, noise-friendly playground right out of the box.
+
 **A generated patch is a raw technical structure.** It contains no music or even a hint of it. Think of it as a "skeleton" that you fill with sound, tweak knobs, and repatch cables to discover your own industrial sound.
 
 ---
